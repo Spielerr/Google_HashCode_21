@@ -4,32 +4,27 @@
 a-b 1
 ejj-b 1
 499
-250
+225
 a-ejj 1
-c-ejj 0
 e-ejj 1
 g-ejj 1
 i-ejj 1
 ba-ejj 1
 bc-ejj 1
 be-ejj 1
-bg-ejj 0
 bi-ejj 1
 ca-ejj 1
 cc-ejj 1
 ce-ejj 1
 cg-ejj 1
 ci-ejj 1
-da-ejj 0
 dc-ejj 1
 de-ejj 1
 dg-ejj 1
 di-ejj 1
-ea-ejj 0
 ec-ejj 1
 ee-ejj 1
 eg-ejj 1
-ei-ejj 0
 fa-ejj 1
 fc-ejj 1
 fe-ejj 1
@@ -49,7 +44,6 @@ ia-ejj 1
 ic-ejj 1
 ie-ejj 1
 ig-ejj 1
-ii-ejj 0
 ja-ejj 1
 jc-ejj 1
 je-ejj 1
@@ -64,10 +58,7 @@ bba-ejj 1
 bbc-ejj 1
 bbe-ejj 1
 bbg-ejj 1
-bbi-ejj 0
-bca-ejj 0
 bcc-ejj 1
-bce-ejj 0
 bcg-ejj 1
 bci-ejj 1
 bda-ejj 1
@@ -104,17 +95,12 @@ bja-ejj 1
 bjc-ejj 1
 bje-ejj 1
 bjg-ejj 1
-bji-ejj 0
 caa-ejj 1
 cac-ejj 1
 cae-ejj 1
-cag-ejj 0
-cai-ejj 0
-cba-ejj 0
 cbc-ejj 1
 cbe-ejj 1
 cbg-ejj 1
-cbi-ejj 0
 cca-ejj 1
 ccc-ejj 1
 cce-ejj 1
@@ -132,10 +118,8 @@ ceg-ejj 1
 cei-ejj 1
 cfa-ejj 1
 cfc-ejj 1
-cfe-ejj 0
 cfg-ejj 1
 cfi-ejj 1
-cga-ejj 0
 cgc-ejj 1
 cge-ejj 1
 cgg-ejj 1
@@ -161,10 +145,7 @@ dae-ejj 1
 dag-ejj 1
 dai-ejj 1
 dba-ejj 1
-dbc-ejj 0
-dbe-ejj 0
 dbg-ejj 1
-dbi-ejj 0
 dca-ejj 1
 dcc-ejj 1
 dce-ejj 1
@@ -180,15 +161,11 @@ dec-ejj 1
 dee-ejj 1
 deg-ejj 1
 dei-ejj 1
-dfa-ejj 0
 dfc-ejj 1
-dfe-ejj 0
 dfg-ejj 1
 dfi-ejj 1
 dga-ejj 1
-dgc-ejj 0
 dge-ejj 1
-dgg-ejj 0
 dgi-ejj 1
 dha-ejj 1
 dhc-ejj 1
@@ -233,9 +210,7 @@ eei-ejj 1
 efa-ejj 1
 efc-ejj 1
 efe-ejj 1
-efg-ejj 0
 efi-ejj 1
-ega-ejj 0
 egc-ejj 1
 ege-ejj 1
 egg-ejj 1
@@ -434,9 +409,8 @@ ejj-fb 1
 1
 fb-fc 1
 53
-2
+1
 fc-fd 1
-ejj-fd 0
 54
 1
 fd-fe 1
@@ -812,9 +786,8 @@ ejj-bfj 1
 1
 bfj-bga 1
 161
-2
+1
 bga-bgb 1
-ejj-bgb 0
 162
 1
 bgb-bgc 1
@@ -1120,9 +1093,8 @@ ejj-ceh 1
 1
 ceh-cei 1
 249
-2
+1
 cei-cej 1
-ejj-cej 0
 250
 1
 cej-cfa 1
@@ -1190,9 +1162,8 @@ ejj-cgh 1
 1
 cgh-cgi 1
 269
-2
+1
 cgi-cgj 1
-ejj-cgj 0
 270
 1
 cgj-cha 1
@@ -1260,9 +1231,8 @@ ejj-cih 1
 1
 cih-cii 1
 289
-2
+1
 cii-cij 1
-ejj-cij 0
 290
 1
 cij-cja 1
@@ -1477,9 +1447,8 @@ ejj-dej 1
 1
 dej-dfa 1
 351
-2
+1
 dfa-dfb 1
-ejj-dfb 0
 352
 1
 dfb-dfc 1
@@ -1631,9 +1600,8 @@ ejj-djd 1
 1
 djd-dje 1
 395
-2
+1
 dje-djf 1
-ejj-djf 0
 396
 1
 djf-djg 1
@@ -1820,9 +1788,8 @@ ejj-eeh 1
 1
 eeh-eei 1
 449
-2
+1
 eei-eej 1
-ejj-eej 0
 450
 1
 eej-efa 1
@@ -1953,9 +1920,8 @@ ejj-eif 1
 1
 eif-eig 1
 487
-2
+1
 eig-eih 1
-ejj-eih 0
 488
 1
 eih-eii 1

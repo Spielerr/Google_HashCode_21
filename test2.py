@@ -89,17 +89,19 @@ for i in to_print:
 print(t_count)
 
 
-
-
-
-
 for i in intersection:
 	if(to_print[i]):
 		print(i)
 
-		print(len(intersection[i]))
+		count_inc_str = 0
+		for j in intersection[i]:
+			if T_scores[(i,j)]:
+				count_inc_str += 1
+
+		print(count_inc_str)
 
 		for j in intersection[i]:
-			print(j, T_scores[(i, j)])
+			if T_scores[(i,j)]:
+				print(j, T_scores[(i, j)])
 
 
