@@ -24,7 +24,14 @@ for k in streets:
 	except:
 		intersection[streets[k][1]] = [k]
 # print(intersection)
-
+max_i = -1
+max_len = -1
+for i in intersection:
+	length = len(intersection[i])
+	if (length > max_len):
+		max_len = length
+		max_i = i
+# print(max_i, max_len)
 for k in cars:
 	for i in cars[k][1::]:
 		# print(i)
@@ -54,6 +61,7 @@ for k in streets:
 	# T_sum += T_scores[k]
 # print(T_scores)
 to_print = {}
+
 for k in intersection:
 # 	T_scores[k] = T_scores[k] / T_sum
 	for i in intersection[k]:
@@ -73,8 +81,11 @@ for k in intersection:
 	T_sum = 0
 
 for i in T_scores:
-	T_scores[i] = math.ceil(T_scores[i] * 0.00001 * sim_dur)
+	T_scores[i] = math.ceil(T_scores[i] * 0.05 * sim_dur)
 
+
+for i in intersection[499]:
+	T_scores[i] = 1
 # print(T_scores)
 # for i in intersection[6]:
 	# print(T_scores[i])
