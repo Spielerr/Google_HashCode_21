@@ -1,5 +1,5 @@
 sim_dur, num_inter, num_str, num_cars, bonus = tuple(map(int, input().split()))
-
+import math
 streets = {}
 
 for i in range(num_str):
@@ -34,11 +34,21 @@ for k in cars:
 			streets[i].append(1)
 # print(streets)
 
+
+cars_on_streets = {}
+
+for i in streets:
+	cars_on_streets[i] = 0
+	for k in cars:
+		if i in cars[k]:
+			cars_on_streets[i] += 1
+
+
 T_scores = {}
 T_sum = 0
 for k in streets:
 	try:
-		T_scores[k] = streets[k][3] / streets[k][2]
+		T_scores[k] = streets[k][3] * cars_on_streets[i] / streets[k][2] 
 	except:
 		T_scores[k] = 0
 	# T_sum += T_scores[k]
@@ -53,13 +63,21 @@ for k in intersection:
 			T_scores[i] = T_scores[i] / T_sum
 			to_print[k] = 1
 		except:
-			to_print[k] = 0
+			try:
+				if(to_print[k]):
+					pass
+				else:
+					to_print[k] = 0
+			except:
+				to_print[k] = 0
 	T_sum = 0
 
 for i in T_scores:
-	T_scores[i] = int(T_scores[i] * 0.05 * sim_dur)
+	T_scores[i] = math.ceil(T_scores[i] * 0.00001 * sim_dur)
 
 # print(T_scores)
+# for i in intersection[6]:
+	# print(T_scores[i])
 # print(to_print)
 t_count = 0
 for i in to_print:
